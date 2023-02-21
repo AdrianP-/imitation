@@ -7,7 +7,7 @@ orbs:
 
 defaults: &defaults
   docker:
-    - image: humancompatibleai/imitation:base
+    - image: humancompatibleai/imitation:base-alpha
       auth:
         username: $DOCKERHUB_USERNAME
         password: $DOCKERHUB_PASSWORD
